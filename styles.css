@@ -1,0 +1,48 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background: #f9f9f9;
+}
+
+h1 {
+  color: #333;
+}
+
+
+   /* Part 1: CSS Only */
+
+.fancy-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.fancy-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+
+   /* Part 3: CSS + JS */
+
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: #2196F3;
+  margin: 20px auto;
+  border-radius: 8px;
+  transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+/* Animated class that JS will toggle */
+.animate {
+  transform: rotate(180deg) scale(1.5);
+  background-color: #f44336;
+}
